@@ -1,0 +1,12 @@
+# 1. Ignore everything
+*
+
+# 2. But do not ignore directories (needed to find files inside folders)
+!*/
+
+# 3. Specifically allow .cpp and .md files
+!*.cpp
+!*.md
+
+# 4. Optional: If you use headers, you might want to allow .h as well
+# !*.h
